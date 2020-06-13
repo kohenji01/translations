@@ -3,10 +3,33 @@
 /**
  * HTTP language strings.
  *
+ * This content is released under the MIT License (MIT)
+ *
+ * Copyright (c) 2014-2019 British Columbia Institute of Technology
+ * Copyright (c) 2019-2020 CodeIgniter Foundation
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
- * @copyright  2019 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
+ * @copyright  2019-2020 CodeIgniter Foundation
+ * @license    https://opensource.org/licenses/MIT  MIT License
  * @link       https://codeigniter.com
  * @since      Version 4.0.0
  * @filesource
@@ -25,7 +48,7 @@ return [
    'invalidNegotiationType'     => '요청된 {0} 경우, 유효하지 않은 negotiation type입니다. 다음 중에 하나를 사용하십시오: media, charset, encoding, language.', // @See: https://httpd.apache.org/docs/2.2/ko/content-negotiation.html @see: https://tools.ietf.org/html/rfc2295 @see: https://www.w3.org/Protocols/rfc2616/rfc2616-sec12.html // '{0} is not a valid negotiation type. Must be one of: media, charset, encoding, language.',
 
 	// Message
-   'invalidHTTPProtocol'        => '유효하지 않은 HTTP 프로토콜 버전입니다. 다음 버전 중에 하나를 사용하십시오: {0}',  // CI4 rc.3기준 : protected $validProtocolVersions = ['1.0', '1.1', '2',]; // 'Invalid HTTP Protocol Version. Must be one of: {0}',
+   'invalidHTTPProtocol'        => '유효하지 않은 HTTP 프로토콜 버전입니다. 다음 버전 중에 하나를 사용하십시오: {0}',  // CI4 기준 : protected $validProtocolVersions = ['1.0', '1.1', '2',]; // 'Invalid HTTP Protocol Version. Must be one of: {0}',
 
 	// Negotiate
    'emptySupportedNegotiations' => '모든 Negotiations에 지원되는 값의 배열이 반드시 제공되어야 합니다.', // 'You must provide an array of supported values to all Negotiations.',
@@ -38,7 +61,7 @@ return [
    'cannotSetFilepath'          => '다운로드 에러: 바이너리 설정 중에 파일 경로를 설정할 수 없습니다.', // 'When setting binary can not set filepath: {0}',
    'notFoundDownloadSource'     => '다운로드 에러: 다운로드 본문 소스를 찾을 수 없음.', // 'Not found download body source.',
    'cannotSetCache'             => '다운로드 에러: 다운로드를 위해 지원되는 caching이 아닙니다.', // 'It does not supported caching for downloading.',
-   'cannotSetStatusCode'        => '다운로드 에러: 다운로드를 위해 상태 코드를 변경하는 것을 지원하지 않습니다. code: {0}, reason: {1}', // 'It does not supported chnage status code for downloading. code: {0}, reason: {1}', // chnage는 오타인 듯...change
+   'cannotSetStatusCode'        => '다운로드 에러: 다운로드를 위해 상태 코드를 변경하는 것을 지원하지 않습니다. code: {0}, reason: {1}', // 'It does not supported change status code for downloading. code: {0}, reason: {1}',
 
 	// Response
    'missingResponseStatus'      => 'HTTP 응답에 HTTP 상태 코드가 누락되어 있습니다.', // 'HTTP Response is missing a status code',

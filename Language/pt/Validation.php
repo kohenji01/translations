@@ -3,14 +3,37 @@
 /**
  * Validation language strings.
  *
- * @package      CodeIgniter
- * @author       CodeIgniter Dev Team
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 3.0.0
+ * This content is released under the MIT License (MIT)
+ *
+ * Copyright (c) 2014-2019 British Columbia Institute of Technology
+ * Copyright (c) 2019-2020 CodeIgniter Foundation
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * @package    CodeIgniter
+ * @author     Marco Monteiro
+ * @copyright  2019-2020 CodeIgniter Foundation
+ * @license    https://opensource.org/licenses/MIT	MIT License
+ * @link       https://codeigniter.com
+ * @since      Version 4.0.0
  * @filesource
- * 
+ *
  * @codeCoverageIgnore
  */
 
@@ -34,10 +57,12 @@ return [
 	'exact_length'          => 'O campo {field} deve ter exatamente {param} caracteres.',
 	'greater_than'          => 'O campo {field} deve conter um número maior que {param}.',
 	'greater_than_equal_to' => 'O campo {field} deve conter um número maior ou igual a{param}.',
+	'hex'                   => 'O campo {field} pode conter apenas caracteres hexadecimais.',
 	'in_list'               => 'O campo {field} deve ser um dos seguintes: {param}.',
 	'integer'               => 'O campo {field} deve ser um inteiro',
 	'is_natural'            => 'O campo {field} deve conter apenas dígitos.',
 	'is_natural_no_zero'    => 'O campo {field} deve conter apenas dígitos e deve ser maior que zero.',
+   'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
 	'is_unique'             => 'O campo {field} deve conter um valor único.',
 	'less_than'             => 'O campo {field} deve conter um número menor que {param}.',
 	'less_than_equal_to'    => 'O campo {field} deve conter um número menor ou igual a {param}.',
