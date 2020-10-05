@@ -37,6 +37,6 @@
  * @codeCoverageIgnore
  */
 return [
-	'invalidParameter'    => 'Parametre istenen türle uyumlu değil.',
-	'missingDefaultRoute' => 'Ne görüntüleneceği belirlenemiyor. Rota dosyasında varsayılan rota belirtilmemiş.',
+    'invalidParameter'    => 'Parametrelerden biri beklenen türle eşleşmiyor.',
+    'missingDefaultRoute' => 'Ne görüntüleneceği belirlenemiyor. Yönlendirme(route) dosyasında varsayılan yönlendirme belirtilmemiş.',
 ];

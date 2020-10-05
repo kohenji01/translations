@@ -37,5 +37,5 @@
  * @codeCoverageIgnore
  */
 return [
-	'invalidLogLevel' => '{0} geçersiz günlük seviyesi.',
+	'invalidLogLevel' => '{0} geçersiz günlük(log) seviyesi.',
 ];

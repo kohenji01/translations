@@ -38,5 +38,5 @@
  */
 
 return [
-   'forUnableToRedirect' => 'Unable to redirect to "{0}". Error status code "{1}"',
+    'forUnableToRedirect' => '"{0}" yönlendirme yapılamıyor. Hata kodu "{1}"',
 ];

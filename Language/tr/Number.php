@@ -38,16 +38,16 @@
  */
 
 return [
-	'terabyteAbbr' => 'TB',
-	'gigabyteAbbr' => 'GB',
-	'megabyteAbbr' => 'MB',
-	'kilobyteAbbr' => 'KB',
-	'bytes'        => 'Bayt',
+    'terabyteAbbr' => 'TB',
+    'gigabyteAbbr' => 'GB',
+    'megabyteAbbr' => 'MB',
+    'kilobyteAbbr' => 'KB',
+    'bytes'        => 'Bayt',
 
-	// don't forget the space in front of these!
-	'thousand'     => ' bin',
-	'million'      => ' milyon',
-	'billion'      => ' milyar',
-	'trillion'     => ' trilyon',
-	'quadrillion'  => ' katrilyon',
+    // don't forget the space in front of these!
+    'thousand'     => ' Bin',
+    'million'      => ' Milyon',
+    'billion'      => ' Milyar',
+    'trillion'     => ' Trilyon',
+    'quadrillion'  => ' Katrilyon',
 ];
