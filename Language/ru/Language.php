@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Language system language strings.
+ * Language language strings.
  *
  * This content is released under the MIT License (MIT)
  *

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Email language strings.
  *
@@ -28,7 +29,7 @@
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
  * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
+ * @license    https://opensource.org/licenses/MIT MIT License
  * @link       https://codeigniter.com
  * @since      Version 4.0.0
  * @filesource
@@ -46,7 +47,7 @@ return [
    'sendFailurePHPMail'   => 'Невозможно отправить письмо с помощью PHP_Mail().',
    'sendFailureSendmail'  => 'Невозможно отправить письмо с помощью PHP_SendMail().',
    'sendFailureSmtp'      => 'Невозможно отправить письмо с помощью PHP_SMTP().',
-   'sent'                 => 'Ваше сообщение было отправлено по протоколу: {0, string}',
+   'sent'                 => 'Ваше сообщение было отправлено по протоколу: {0}',
    'noSocket'             => 'Не удается открыть сокет для PHP_SendMail(). Пожалуйста, проверьте настройки.',
    'noHostname'           => 'Вы не указали имя хоста SMTP.',
    'SMTPError'            => 'Произошла следующая ошибка SMTP: {0}',
