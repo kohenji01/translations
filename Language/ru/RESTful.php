@@ -1,5 +1,4 @@
 <?php
-
 /**
  * RESTful language strings.
  *

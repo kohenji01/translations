@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Files language strings.
  *

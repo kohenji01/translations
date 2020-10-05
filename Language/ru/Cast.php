@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Cast language strings.
  *

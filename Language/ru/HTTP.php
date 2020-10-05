@@ -29,7 +29,7 @@
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
  * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT MIT License
+ * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
  * @since      Version 4.0.0
  * @filesource
@@ -54,7 +54,7 @@ return [
    'emptySupportedNegotiations' => 'Необходимо предоставить массив поддерживаемых значений для всех переговоров.',
 
 	// RedirectResponse
-   'invalidRoute'               => '{0} маршрут не может быть найден при обратной маршрутизации.',
+   'invalidRoute'               => '{0, string} маршрут не может быть найден при обратной маршрутизации.',
 
 	// DownloadResponse
    'cannotSetBinary'            => 'При установке $filepath не удается установить двоичного файл.',
@@ -65,7 +65,7 @@ return [
 
 	// Response
    'missingResponseStatus'      => 'В ответе HTTP отсутствует код состояния.',
-   'invalidStatusCode'          => '{0} не является допустимым кодом состояния.',
+   'invalidStatusCode'          => '{0, string} не является допустимым кодом состояния.',
    'unknownStatusCode'          => 'Неизвестный HTTP код состояния, предоставленный без сообщения: {0}.',
 
 	// URI

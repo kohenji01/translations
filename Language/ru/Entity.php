@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Entity language strings.
+ * CLI language strings.
  *
  * This content is released under the MIT License (MIT)
  *
