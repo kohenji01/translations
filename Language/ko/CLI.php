@@ -1,47 +1,30 @@
 <?php
 
 /**
- * CLI language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * This content is released under the MIT License (MIT)
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * Copyright (c) 2014-2019 British Columbia Institute of Technology
- * Copyright (c) 2019-2020 CodeIgniter Foundation
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT  MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
- *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// CLI language settings
 return [
-   'commandNotFound' => '"{0}" 명령어를 찾지 못했습니다.', // 'Command "{0}" not found.',
-   'helpUsage'       => '사용:', // 'Usage:',
-   'helpDescription' => '설명:', // 'Description:',
-   'helpOptions'     => '옵션:', // 'Options:',
-   'helpArguments'   => '인수:', //'Arguments:',
-   'invalidColor'    => '유효하지 않은 {0} 색상: {1}.', // CI4 기준 : {0}에는 'foreground' 또는 'background' 문자열이 들어감. // 'Invalid {0} color: {1}.',
+	'commandNotFound'    => '"{0}" 명령어를 찾지 못했습니다.', // 'Command "{0}" not found.',
+	'altCommandSingular' => '이게 맞습니까?', // 'Did you mean this?',
+	'altCommandPlural'   => '이중 하나입니까?', // 'Did you mean one of these?',
+	'helpUsage'          => '사용:', // 'Usage:',
+	'helpDescription'    => '설명:', // 'Description:',
+	'helpOptions'        => '옵션:', // 'Options:',
+	'helpArguments'      => '인수:', //'Arguments:',
+	'invalidColor'       => '유효하지 않은 {0} 색상: {1}.', // CI4 기준 : {0}에는 'foreground' 또는 'background' 문자열이 들어감. // 'Invalid {0} color: {1}.',
+
+	// Generators
+	'generateClassName'   => '클래스 이름', // 'Name of class',
+	'generateParentClass' => '확장할 상위 클래스의 이름', // 'Name of parent class to extend from',
+	'generateFileExists'  => '{0}는 이미 존재합니다.', // '{0} already exists.',
+	'generateFileSuccess' => '생성된 파일: ', // 'Created file: ',
+	'generateFileError'   => '파일 생성 오류: ', // 'Error in creating file: ',
+	'namespaceNotDefined' => '네임 스페이스 "{0}"이(가) 정의되지 않았습니다.', // 'Namespace "{0}" is not defined.',
 ];

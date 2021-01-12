@@ -1,49 +1,22 @@
 <?php
 
 /**
- * Validation language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * This content is released under the MIT License (MIT)
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * Copyright (c) 2014-2019 British Columbia Institute of Technology
- * Copyright (c) 2019-2020 CodeIgniter Foundation
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
- *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// Validation language settings
 return [
 	// Core Messages
-	'noRuleSets'            => 'Doğrulama ayarlarında kural kümesi tanımlanmamış.',
-	'ruleNotFound'          => '{0} geçerli bir kural değil.',
-	'groupNotFound'         => '{0} geçerli bir kural grubu değil.',
-	'groupNotArray'         => '{0} kural grubu bir dizi olmalı.',
-	'invalidTemplate'       => '{0} geçerli bir doğrulama şablonu değil.',
+	'noRuleSets'      => 'Doğrulama ayarlarında kural kümesi tanımlanmamış.',
+	'ruleNotFound'    => '{0} geçerli bir kural değil.',
+	'groupNotFound'   => '{0} geçerli bir kural grubu değil.',
+	'groupNotArray'   => '{0} kural grubu bir dizi olmalı.',
+	'invalidTemplate' => '{0} geçerli bir doğrulama şablonu değil.',
 
 	// Rule Messages
 	'alpha'                 => '{field} alanı yalnız alfabetik karakterler içerebilir.',
@@ -83,13 +56,13 @@ return [
 	'valid_date'            => '{field} alanı geçerli bir tarih içermeli.',
 
 	// Credit Cards
-	'valid_cc_num'          => '{field} geçerli bir kredi kartı numarası değil.',
+	'valid_cc_num' => '{field} geçerli bir kredi kartı numarası değil.',
 
 	// Files
-	'uploaded'              => '{field} geçerli bir yüklenen dosya değil.',
-	'max_size'              => '{field} çok büyük dosya.',
-	'is_image'              => '{field} geçerli bir yüklenen resim dosyası değil.',
-	'mime_in'               => '{field} alanında geçerli bir dosya türü yok.',
-	'ext_in'                => '{field} alanında geçerli bir dosya uzantısı yok.',
-	'max_dims'              => '{field} bir resim değil veya çok geniş ya da uzun.',
+	'uploaded' => '{field} geçerli bir yüklenen dosya değil.',
+	'max_size' => '{field} çok büyük dosya.',
+	'is_image' => '{field} geçerli bir yüklenen resim dosyası değil.',
+	'mime_in'  => '{field} alanında geçerli bir dosya türü yok.',
+	'ext_in'   => '{field} alanında geçerli bir dosya uzantısı yok.',
+	'max_dims' => '{field} bir resim değil veya çok geniş ya da uzun.',
 ];

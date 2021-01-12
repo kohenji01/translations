@@ -1,59 +1,33 @@
 <?php
+
 /**
- * Email language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * This content is released under the MIT License (MIT)
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * Copyright (c) 2014-2019 British Columbia Institute of Technology
- * Copyright (c) 2019-2020 CodeIgniter Foundation
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package    CodeIgniter
- * @author     Jozef Botka - xbotkaj on Github
- * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
- *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// Email language settings
 return [
-   'mustBeArray'          => 'The email validation method must be passed an array.',
-   'invalidAddress'       => 'Invalid email address: {0}',
-   'attachmentMissing'    => 'Unable to locate the following email attachment: {0}',
-   'attachmentUnreadable' => 'Unable to open this attachment: {0}',
-   'noFrom'               => 'Cannot send mail with no "From" header.',
-   'noRecipients'         => 'You must include recipients: To, Cc, or Bcc',
-   'sendFailurePHPMail'   => 'Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.',
-   'sendFailureSendmail'  => 'Unable to send email using PHP Sendmail. Your server might not be configured to send mail using this method.',
-   'sendFailureSmtp'      => 'Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.',
-   'sent'                 => 'Your message has been successfully sent using the following protocol: {0, string}',
-   'noSocket'             => 'Unable to open a socket to Sendmail. Please check settings.',
-   'noHostname'           => 'You did not specify a SMTP hostname.',
-   'SMTPError'            => 'The following SMTP error was encountered: {0}',
-   'noSMTPAuth'           => 'Error: You must assign a SMTP username and password.',
-   'failedSMTPLogin'      => 'Failed to send AUTH LOGIN command. Error: {0}',
-   'SMTPAuthUsername'     => 'Failed to authenticate username. Error: {0}',
-   'SMTPAuthPassword'     => 'Failed to authenticate password. Error: {0}',
-   'SMTPDataFailure'      => 'Unable to send data: {0}',
-   'exitStatus'           => 'Exit status code: {0}',
+	'mustBeArray'          => 'Metóda overenia e-mailu musí byť odovzdaná ako pole.',
+	'invalidAddress'       => 'Neplatná emailová adresa: {0}',
+	'attachmentMissing'    => 'Nasledujúca príloha e-mailu sa nepodarilo nájsť: {0}',
+	'attachmentUnreadable' => 'Túto prílohu nie je možné otvoriť: {0}',
+	'noFrom'               => 'Nemožno poslať mail bez hlavičky (header) "From".',
+	'noRecipients'         => 'Musíte zadať príjemcov: To, Cc, alebo Bcc',
+	'sendFailurePHPMail'   => 'Nepodarilo sa odoslať email pomocou PHP mail(). Váš server nemusí byť nakonfigurovaný na odosielanie pošty pomocou tejto metódy.',
+	'sendFailureSendmail'  => 'Nepodarilo sa odoslať email pomocou PHP Sendmail. Váš server nemusí byť nakonfigurovaný na odosielanie pošty pomocou tejto metódy.',
+	'sendFailureSmtp'      => 'Nepodarilo sa odoslať e-mail pomocou protokolu PHP SMTP. Váš server nemusí byť nakonfigurovaný na odosielanie pošty pomocou tejto metódy.',
+	'sent'                 => 'Vaša správa bola úspešne odoslaná pomocou nasledujúceho protokolu: {0}',
+	'noSocket'             => 'Nepodarilo sa otvoriť soket pre Sendmail. Skontrolujte nastavenia.',
+	'noHostname'           => 'Nezadali ste názov hostiteľa SMTP.',
+	'SMTPError'            => 'Vyskytla sa nasledujúca chyba SMTP: {0}',
+	'noSMTPAuth'           => 'Chyba: Musíte zadať používateľské meno a heslo SMTP.',
+	'failedSMTPLogin'      => 'Nepodarilo sa odoslať príkaz AUTH LOGIN. Chyba: {0}',
+	'SMTPAuthUsername'     => 'Nepodarilo sa overiť používateľské meno. Chyba: {0}',
+	'SMTPAuthPassword'     => 'Nepodarilo sa overiť heslo. Chyba: {0}',
+	'SMTPDataFailure'      => 'Nie je možné odoslať údaje: {0}',
+	'exitStatus'           => 'Stavový kód Exit: {0}',
 ];

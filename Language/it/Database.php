@@ -1,55 +1,30 @@
 <?php
 
 /**
- * Database language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * This content is released under the MIT License (MIT)
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * Copyright (c) 2014-2019 British Columbia Institute of Technology
- * Copyright (c) 2019-2020 CodeIgniter Foundation
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package    CodeIgniter
- * @author     Luca Marco Rasia
- * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
- *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
+
+// Database language settings
 return [
-	'invalidEvent'         => '{0} non è una valida chiamata dell\'evento del Model.',
-	'invalidArgument'      => 'Devi fornire un valido {0}.',
-	'invalidAllowedFields' => 'I campi autorizzati devono essere specificati per il model: {0}',
-	'emptyDataset'         => 'Nessun dato presente in {0}.',
-	'failGetFieldData'                 => 'Failed to get field data from database.',
-	'failGetIndexData'                 => 'Failed to get index data from database.',
-	'failGetForeignKeyData'            => 'Failed to get foreign key data from database.',
-	'parseStringFail'                  => 'Parsing key string failed.',
-	'featureUnavailable'               => 'This feature is not available for the database you are using.',
-	'tableNotFound'                    => 'Table `{0}` was not found in the current database.',
-	'noPrimaryKey'                     => '`{0}` model class does not specify a Primary Key.',
-	'noDateFormat'                     => '`{0}` model class does not have a valid dateFormat.',
-	'fieldNotExists'                   => 'Field `{0}` not found.',
-	'forEmptyInputGiven'               => 'Empty statement is given for the field `{0}`',
-	'forFindColumnHaveMultipleColumns' => 'Only single column allowed in Column name.',
+	'invalidEvent'                     => '{0} non è una valida chiamata dell\'evento del Model.',
+	'invalidArgument'                  => 'Devi fornire un valido {0}.',
+	'invalidAllowedFields'             => 'I campi autorizzati devono essere specificati per il model: {0}',
+	'emptyDataset'                     => 'Nessun dato presente in {0}.',
+	'emptyPrimaryKey'                  => 'Non è stata definita alcuna Primary Key durante la creazione di {0}.',
+	'failGetFieldData'                 => 'Impossibile recuperare i dati del campo dal database.',
+	'failGetIndexData'                 => 'Impossibile recuperare i dati dell\'indice dal database.',
+	'failGetForeignKeyData'            => 'Impossibile recuperare i dati della Foreign Key dal database.',
+	'parseStringFail'                  => 'Il parsing della key string è fallito.',
+	'featureUnavailable'               => 'Questa funzionalità non è disponibile per il tipo di database che si sta utilizzando.',
+	'tableNotFound'                    => 'La tabella `{0}` non è stata trovata nel database corrente.',
+	'noPrimaryKey'                     => 'È necessario specificare una Primary Key per la classe Model `{0}`',
+	'noDateFormat'                     => 'È necessario fornire un dateFormat valido per la classe Model `{0}`',
+	'fieldNotExists'                   => 'Il campo `{0}` non è stato trovato.',
+	'forEmptyInputGiven'               => 'È stato fornito un valore vuoto per il campo `{0}`',
+	'forFindColumnHaveMultipleColumns' => 'È possibile specificare solo un elemento come nome della colonna.',
 ];
